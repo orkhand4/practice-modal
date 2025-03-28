@@ -17,7 +17,7 @@ const App = () => {
         }
       })
       .catch((err) => {
-        alert("Kafeləri yükləmək mümkün olmadı.");
+        alert("Kofeləri yükləmək mümkün olmadı.");
         setCoffees([]);
       });
   }, []);
